@@ -328,13 +328,13 @@ The current comparison shows that neural-operator architectures can substantiall
 
 | Model | MSE | MAE | RMSE | Rel. L2 | R² |
 |---|---:|---:|---:|---:|---:|
-| DeepONet | $3.25\times10^{10}$ | $4.51\times10^4$ | $1.80\times10^5$ | 0.548 | 0.698 |
-| FNO | $1.66\times10^{10}$ | $3.23\times10^4$ | $1.29\times10^5$ | 0.391 | 0.846 |
-| ResUNet | $3.03\times10^{10}$ | $4.43\times10^4$ | $1.74\times10^5$ | 0.528 | 0.719 |
-| **U-NO** | $\mathbf{1.02\times10^{10}}$ | $\mathbf{2.18\times10^4}$ | $\mathbf{1.01\times10^5}$ | **0.307** | **0.905** |
-| WNO | $1.72\times10^{10}$ | $3.82\times10^4$ | $1.31\times10^5$ | 0.398 | 0.841 |
-| GNO | $1.71\times10^{10}$ | $3.57\times10^4$ | $1.31\times10^5$ | 0.397 | 0.841 |
-| LNO | $1.44\times10^{10}$ | $2.69\times10^4$ | $1.20\times10^5$ | 0.365 | 0.866 |
+| DeepONet | 3.25×10<sup>10</sup> | 4.51×10<sup>4</sup> | 1.80×10<sup>5</sup> | 0.548 | 0.698 |
+| FNO | 1.66×10<sup>10</sup> | 3.23×10<sup>4</sup> | 1.29×10<sup>5</sup> | 0.391 | 0.846 |
+| ResUNet | 3.03×10<sup>10</sup> | 4.43×10<sup>4</sup> | 1.74×10<sup>5</sup> | 0.528 | 0.719 |
+| **U-NO** | <strong>1.02×10<sup>10</sup></strong> | <strong>2.18×10<sup>4</sup></strong> | <strong>1.01×10<sup>5</sup></strong> | **0.307** | **0.905** |
+| WNO | 1.72×10<sup>10</sup> | 3.82×10<sup>4</sup> | 1.31×10<sup>5</sup> | 0.398 | 0.841 |
+| GNO | 1.71×10<sup>10</sup> | 3.57×10<sup>4</sup> | 1.31×10<sup>5</sup> | 0.397 | 0.841 |
+| LNO | 1.44×10<sup>10</sup> | 2.69×10<sup>4</sup> | 1.20×10<sup>5</sup> | 0.365 | 0.866 |
 
 ### Main Observation
 

@@ -35,7 +35,7 @@ The central task considered here is
 $$
 \boxed{
 \text{Diffusion Field}
-\quad \xrightarrow{\;\mathcal{G}_{\theta}\;} \quad
+\quad \xrightarrow{\\mathcal{G}_{\theta}\} \quad
 \text{Wave Field}
 }
 $$
@@ -89,11 +89,11 @@ $$
 
 such that
 
-$$
+```math
 v(\mathbf{x},t)
 \approx
 \mathcal{G}_{\theta}[u](\mathbf{x},t).
-$$
+```
 
 This is fundamentally different from a local pixel-to-pixel transformation because the relationship between the two fields can be highly **nonlocal in space and time**.
 

@@ -32,13 +32,13 @@ Instead of learning the solution operator of a single governing equation, we inv
 
 The central task considered here is
 
-$$
+```math
 \boxed{
 \text{Diffusion Field}
 \quad \xrightarrow{\\mathcal{G}_{\theta}\} \quad
 \text{Wave Field}
 }
-$$
+```
 
 where both fields arise from the **same latent physical scene**, including geometry, defects, excitation configuration, and characteristic physical scales.
 
@@ -105,7 +105,7 @@ This is fundamentally different from a local pixel-to-pixel transformation becau
 
 The source-domain field satisfies a heterogeneous diffusion equation
 
-$$
+```math
 \frac{\partial u}{\partial t}
 =
 \nabla\cdot
@@ -113,7 +113,7 @@ $$
 \alpha(\mathbf{x})\nabla u
 \right]
 +s_d.
-$$
+```
 
 Diffusion progressively suppresses high-spatial-frequency information and smooths the observed field.
 
@@ -121,7 +121,7 @@ Diffusion progressively suppresses high-spatial-frequency information and smooth
 
 The target-domain field follows a heterogeneous wave equation
 
-$$
+```math
 \frac{\partial^2v}{\partial t^2}
 =
 \nabla\cdot
@@ -129,7 +129,7 @@ $$
 c^2(\mathbf{x})\nabla v
 \right]
 +s_w.
-$$
+```
 
 Unlike diffusion, wave propagation retains features including propagation fronts, arrival times, reflections, interference, and defect-induced scattering.
 
@@ -155,7 +155,7 @@ Wave
 
 The conceptual mapping can be expressed as
 
-$$
+```math
 \boxed{
 \mathcal{G}_{A\rightarrow B}
 =
@@ -165,7 +165,7 @@ $$
 \circ
 \Phi_A^{-1}
 }
-$$
+```
 
 where the two physical fields are regarded as different representations of a compatible latent physical structure.
 
@@ -238,7 +238,7 @@ Current dataset configuration:
 | Property                      | Value                        |
 | ----------------------------- | ---------------------------- |
 | Number of paired realizations | 1,000                        |
-| Observation size              | \(501\times200\)             |
+| Observation size              | $(501\times200\$             |
 | Source domain                 | Diffusion                    |
 | Target domain                 | Wave propagation             |
 | Pairing                       | Shared latent physical scene |

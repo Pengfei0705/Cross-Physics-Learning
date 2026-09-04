@@ -392,18 +392,11 @@ Cross-Physics-Learning/
 ├── LICENSE
 ├── requirements.txt
 │
-├── data/
-│   ├── README.md
-│   └── examples/
-│
-├── models/
-│   ├── resunet/
-│   ├── uno/
-│   ├── fno/
-│   ├── wno/
-│   ├── lno/
-│   ├── gno/
-│   └── deeponet/
+├── training dataset/
+│   ├── 1/
+│   ├── 2/
+│   ├── .../
+│   
 │
 ├── train/
 │   ├── train_resunet.py

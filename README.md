@@ -32,13 +32,13 @@ Instead of learning the solution operator of a single governing equation, we inv
 
 The central task considered here is
 
-```math
+$$
 \boxed{
 \text{Diffusion Field}
 \quad \xrightarrow{\\mathcal{G}_{\theta}\} \quad
 \text{Wave Field}
 }
-```
+$$
 
 where both fields arise from the **same latent physical scene**, including geometry, defects, excitation configuration, and characteristic physical scales.
 

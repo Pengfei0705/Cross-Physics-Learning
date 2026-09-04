@@ -181,7 +181,7 @@ To avoid arbitrarily pairing unrelated diffusion and wave fields, the dataset is
 
 ### Diffusion
 
-For an observation interval \(t_0\),
+For an observation interval $t_0$,
 
 $$
 \ell_d\sim\sqrt{\alpha t_0},
@@ -238,7 +238,7 @@ Current dataset configuration:
 | Property                      | Value                        |
 | ----------------------------- | ---------------------------- |
 | Number of paired realizations | 1,000                        |
-| Observation size              | $(501\times200\$             |
+| Observation size              | $501\times200$             |
 | Source domain                 | Diffusion                    |
 | Target domain                 | Wave propagation             |
 | Pairing                       | Shared latent physical scene |
@@ -328,13 +328,13 @@ The current comparison shows that neural-operator architectures can substantiall
 
 | Model    |                       MSE |                    MAE |                   RMSE |   Rel. L2 |        R² |
 | -------- | ------------------------: | ---------------------: | ---------------------: | --------: | --------: |
-| DeepONet |     \(3.25\times10^{10}\) |     \(4.51\times10^4\) |     \(1.80\times10^5\) |     0.548 |     0.698 |
-| FNO      |     \(1.66\times10^{10}\) |     \(3.23\times10^4\) |     \(1.29\times10^5\) |     0.391 |     0.846 |
-| ResUNet  |     \(3.03\times10^{10}\) |     \(4.43\times10^4\) |     \(1.74\times10^5\) |     0.528 |     0.719 |
-| **U-NO** | **\(1.02\times10^{10}\)** | **\(2.18\times10^4\)** | **\(1.01\times10^5\)** | **0.307** | **0.905** |
-| WNO      |     \(1.72\times10^{10}\) |     \(3.82\times10^4\) |     \(1.31\times10^5\) |     0.398 |     0.841 |
-| GNO      |     \(1.71\times10^{10}\) |     \(3.57\times10^4\) |     \(1.31\times10^5\) |     0.397 |     0.841 |
-| LNO      |     \(1.44\times10^{10}\) |     \(2.69\times10^4\) |     \(1.20\times10^5\) |     0.365 |     0.866 |
+| DeepONet |     $3.25\times10^{10}$   |     $4.51\times10^4$   |     $1.80\times10^5$   |     0.548 |     0.698 |
+| FNO      |     $1.66\times10^{10}$   |     $3.23\times10^4$   |     $1.29\times10^5$   |     0.391 |     0.846 |
+| ResUNet  |     $3.03\times10^{10}$   |     $4.43\times10^4$   |     $1.74\times10^5$   |     0.528 |     0.719 |
+| **U-NO** | **$1.02\times10^{10}$**   | **$2.18\times10^4$**   | **$1.01\times10^5$**   | **0.307** | **0.905** |
+| WNO      |     $1.72\times10^{10}$   |     $3.82\times10^4$   |     $1.31\times10^5$   |     0.398 |     0.841 |
+| GNO      |     $1.71\times10^{10}$   |     $3.57\times10^4$   |     $1.31\times10^5$   |     0.397 |     0.841 |
+| LNO      |     $1.44\times10^{10}$   |     $2.69\times10^4$   |     $1.20\times10^5$   |     0.365 |     0.866 |
 
 ### Main Observation
 

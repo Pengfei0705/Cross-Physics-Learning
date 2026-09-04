@@ -331,7 +331,7 @@ The current comparison shows that neural-operator architectures can substantiall
 | DeepONet |     $3.25\times10^{10}$   |     $4.51\times10^4$   |     $1.80\times10^5$   |     0.548 |     0.698 |
 | FNO      |     $1.66\times10^{10}$   |     $3.23\times10^4$   |     $1.29\times10^5$   |     0.391 |     0.846 |
 | ResUNet  |     $3.03\times10^{10}$   |     $4.43\times10^4$   |     $1.74\times10^5$   |     0.528 |     0.719 |
-| **U-NO** |$\mathbf 1.02\times10^{10}$| $\mathbf2.18\times10^4$| $\mathbf1.01\times10^5$| **0.307** | **0.905** |
+| **U-NO** |$\mathbf{1.02\times10^{10}}$| $\mathbf{2.18\times10^4}$| $\mathbf{1.01\times10^5}$| **0.307** | **0.905** |
 | WNO      |     $1.72\times10^{10}$   |     $3.82\times10^4$   |     $1.31\times10^5$   |     0.398 |     0.841 |
 | GNO      |     $1.71\times10^{10}$   |     $3.57\times10^4$   |     $1.31\times10^5$   |     0.397 |     0.841 |
 | LNO      |     $1.44\times10^{10}$   |     $2.69\times10^4$   |     $1.20\times10^5$   |     0.365 |     0.866 |

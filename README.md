@@ -524,10 +524,10 @@ The complete dataset and pretrained model weights will be released separately.
 | Resource             | Link                                          |
 | -------------------- | --------------------------------------------- |
 | 💻 Source Code       | This repository                               |
-| 🗃️ Dataset          | `[Zenodo / Hugging Face / OSF — Coming Soon]` |
+| 🗃️ Dataset          | This repository |
 | 🧠 Pretrained Models | `[Coming Soon]`                               |
 | 📄 Paper             | `[PDF — Coming Soon]`                         |
-| 🌐 Project Page      | `[Project Website — Coming Soon]`             |
+| 🌐 Project Page      | https://bam.de/ueber-die-bam/organisation/zerstoerungsfreie-pruefung/thermografische-verfahren             |
 
 ---
 

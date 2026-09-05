@@ -553,7 +553,7 @@ The goal is to make the reported cross-physics experiments independently reprodu
 An interactive project page presenting the physical motivation, cross-physics framework, model comparison, and representative results is available at:
 
 ```text
-PROJECT_PAGE_URL
+https://bam.de/ueber-die-bam/organisation/zerstoerungsfreie-pruefung/thermografische-verfahren
 ```
 
 ---

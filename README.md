@@ -440,37 +440,73 @@ pip install -r requirements.txt
 ## ⚡ Minimal Inference Example
 
 ```python
+import numpy as np
+import h5py
+import scipy.io as sio
 import torch
 
-from cpm.models import UNO
-from cpm.io import load_sample
+from models.uno import UNO2D
 
 
-device = torch.device(
-    "cuda" if torch.cuda.is_available() else "cpu"
+# ------------------------------------------------------------
+# Configuration
+# ------------------------------------------------------------
+
+INPUT_PATH = "training dataset/1/Irregular_3_Chirp_1_0.1.mat"
+MODEL_PATH = "best_model/best_model_uno/best_uno2d.pt"
+NORM_PATH = "best_model/best_model_uno/normalization_parameters.npz"
+OUTPUT_PATH = "predicted_PA.mat"
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+norm = np.load(NORM_PATH)
+
+pt_mean = float(norm["pt_mean"])
+pt_std = float(norm["pt_std"])
+pa_mean = float(norm["pa_mean"])
+pa_std = float(norm["pa_std"])
+
+with h5py.File(INPUT_PATH, "r") as f:
+    PT = np.asarray(f["PT"], dtype=np.float32)
+
+assert PT.shape == (501, 200), \
+    f"Expected PT shape (501, 200), got {PT.shape}"
+
+PT = (PT - pt_mean) / pt_std
+
+PT = torch.from_numpy(PT).float()[None, None].to(device)
+
+model = UNO2D(
+    in_channels=1,
+    out_channels=1,
+    base_width=32
+).to(device)
+
+state_dict = torch.load(
+    MODEL_PATH,
+    map_location=device,
+    weights_only=True
 )
 
-model = UNO.from_checkpoint(
-    "checkpoints/uno_best.pt"
-).to(device).eval()
-
-
-diffusion = load_sample(
-    "sample.mat",
-    key="diffusion"
-)
-
-x = torch.from_numpy(
-    diffusion
-)[None, None].float().to(device)
-
+model.load_state_dict(state_dict)
+model.eval()
 
 with torch.no_grad():
+    PA_pred = model(PT)
 
-    wave_pred = model(x)
+PA_pred = PA_pred[0, 0].cpu().numpy()
 
+PA_pred = PA_pred * pa_std + pa_mean
 
-print(wave_pred.shape)
+sio.savemat(
+    OUTPUT_PATH,
+    {"PA_pred": PA_pred}
+)
+
+print("Inference completed.")
+print("Input :", INPUT_PATH)
+print("Output:", OUTPUT_PATH)
+print("Shape :", PA_pred.shape)
 ```
 
 Expected output:

@@ -1,0 +1,23 @@
+UNO2D Quantitative Evaluation
+Metrics calculated on DENORMALIZED PA
+
+Global test-set metrics
+=======================
+MSE      : 1.02229607e+10
+MAE      : 2.18390965e+04
+RMSE     : 1.01108658e+05
+Rel. L2  : 3.06984204e-01
+R2       : 0.90500086
+
+Per-sample mean +/- std
+========================
+MSE     : 1.02229607e+10 +/- 3.81944230e+10
+MAE     : 2.18390965e+04 +/- 4.60580990e+04
+RMSE    : 4.45746635e+04 +/- 9.07527415e+04
+Rel. L2 : 3.03468062e-01 +/- 1.69433319e-01
+R2      : 8.76044000e-01 +/- 1.55082067e-01
+
+Timing
+======
+Total evaluation time : 18.2289 s
+Time per sample       : 0.227861 s

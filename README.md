@@ -409,14 +409,6 @@ Cross-Physics-Learning/
 │   ├── eval_fno.ipynb
 │   └── eval_gno.ipynb
 │   └── ...
-│
-├── checkpoints/
-│
-│
-├── figures/
-│
-└── website/
-    └── index.html
 ```
 
 ---
@@ -426,7 +418,7 @@ Cross-Physics-Learning/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Cross-Physics-Learning.git
+git clone https://github.com/Pengfei0705/Cross-Physics-Learning.git
 cd Cross-Physics-Learning
 ```
 

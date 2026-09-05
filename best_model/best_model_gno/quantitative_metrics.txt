@@ -1,0 +1,23 @@
+Galerkin Neural Operator Quantitative Evaluation
+Metrics calculated on DENORMALIZED PA
+
+Global test-set metrics
+=======================
+MSE      : 1.71275059e+10
+MAE      : 3.57389466e+04
+RMSE     : 1.30872098e+05
+Rel. L2  : 3.97351399e-01
+R2       : 0.84083884
+
+Per-sample mean +/- std
+========================
+MSE     : 1.71275059e+10 +/- 4.60829932e+10
+MAE     : 3.57389466e+04 +/- 6.09653184e+04
+RMSE    : 6.76676592e+04 +/- 1.12020506e+05
+Rel. L2 : 5.03425390e-01 +/- 1.83084332e-01
+R2      : 7.06254146e-01 +/- 2.29471658e-01
+
+Timing
+======
+Total evaluation time : 15.6036 s
+Time per sample       : 0.195044 s

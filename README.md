@@ -576,8 +576,8 @@ If you find this project useful in your research, please consider citing:
 
 ## 👥 Authors
 
-**Pengfei Zhu**
-**Julien Lecompagnon**
+**Pengfei Zhu**,
+**Julien Lecompagnon**,
 **Mathias Ziegler**
 
 Bundesanstalt für Materialforschung und -prüfung (BAM)

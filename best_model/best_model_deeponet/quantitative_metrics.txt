@@ -1,0 +1,18 @@
+DeepONet Quantitative Evaluation
+Metrics calculated on DENORMALIZED PA
+
+Global test-set metrics
+=======================
+MSE      : 3.25193441e+10
+MAE      : 4.51485251e+04
+RMSE     : 1.80331207e+05
+Rel. L2  : 5.47518214e-01
+R2       : 0.69780675
+
+Per-sample mean ± std
+=====================
+MSE     : 3.25193441e+10 +/- 1.07825686e+11
+MAE     : 4.51485251e+04 +/- 7.06159694e+04
+RMSE    : 9.22336231e+04 +/- 1.54959036e+05
+Rel. L2 : 7.91615242e-01 +/- 2.45536517e-01
+R2      : 2.98228353e-01 +/- 3.89651891e-01

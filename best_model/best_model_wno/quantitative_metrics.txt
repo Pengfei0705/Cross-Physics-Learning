@@ -1,0 +1,23 @@
+WNO2D Quantitative Evaluation
+Metrics calculated on DENORMALIZED PA
+
+Global test-set metrics
+=======================
+MSE      : 1.48295199e+10
+MAE      : 3.26728329e+04
+RMSE     : 1.21776516e+05
+Rel. L2  : 3.69735565e-01
+R2       : 0.86219338
+
+Per-sample mean +/- std
+========================
+MSE     : 1.48295199e+10 +/- 4.25905986e+10
+MAE     : 3.26728329e+04 +/- 5.71757397e+04
+RMSE    : 6.15716256e+04 +/- 1.05064051e+05
+Rel. L2 : 4.22057819e-01 +/- 1.43287879e-01
+R2      : 7.96359803e-01 +/- 1.50670777e-01
+
+Timing
+======
+Total evaluation time : 17.5077 s
+Time per sample       : 0.218846 s

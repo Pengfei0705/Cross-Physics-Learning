@@ -399,22 +399,19 @@ Cross-Physics-Learning/
 │   
 │
 ├── train/
-│   ├── train_resunet.py
-│   ├── train_uno.py
-│   ├── train_fno.py
+│   ├── train_resunet.ipynb
+│   ├── train_uno.ipynb
+│   ├── train_fno.ipynb
 │   └── ...
 │
 ├── evaluation/
-│   ├── evaluate.py
-│   ├── metrics.py
-│   └── visualization.py
+│   ├── eval_deeponet.ipynb
+│   ├── eval_fno.ipynb
+│   └── eval_gno.ipynb
+│   └── ...
 │
 ├── checkpoints/
 │
-├── notebooks/
-│   ├── dataset_visualization.ipynb
-│   ├── model_comparison.ipynb
-│   └── inference_demo.ipynb
 │
 ├── figures/
 │

@@ -1,0 +1,23 @@
+FNO Quantitative Evaluation
+Metrics calculated on DENORMALIZED PA
+
+Global test-set metrics
+=======================
+MSE      : 1.65676367e+10
+MAE      : 3.23420135e+04
+RMSE     : 1.28715332e+05
+Rel. L2  : 3.90803067e-01
+R2       : 0.84604155
+
+Per-sample mean +/- std
+========================
+MSE     : 1.65676367e+10 +/- 4.63075612e+10
+MAE     : 3.23420135e+04 +/- 5.43129747e+04
+RMSE    : 6.42677085e+04 +/- 1.11522636e+05
+Rel. L2 : 4.66692818e-01 +/- 1.62163706e-01
+R2      : 7.50259207e-01 +/- 1.84737726e-01
+
+Timing
+======
+Total evaluation time : 12.1246 s
+Time per sample       : 0.151557 s

@@ -1,0 +1,8 @@
+Final Test Results
+Test Total Loss : 2.412546e-01
+Test MSE        : 2.042840e-01
+Test MAE        : 1.135675e-01
+Test Rel L2     : 3.535555e-01
+Test Grad-t     : 5.842460e-02
+Test Grad-x     : 2.232899e-02
+Test FFT Loss   : 5.002552e-02

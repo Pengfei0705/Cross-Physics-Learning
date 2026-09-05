@@ -1,0 +1,23 @@
+ResUNet2D Quantitative Evaluation
+Metrics calculated on DENORMALIZED PA
+
+Global test-set metrics
+=======================
+MSE      : 3.02795271e+10
+MAE      : 4.43281641e+04
+RMSE     : 1.74010135e+05
+Rel. L2  : 5.28326296e-01
+R2       : 0.71862075
+
+Per-sample mean +/- std
+========================
+MSE     : 3.02795271e+10 +/- 7.94483168e+10
+MAE     : 4.43281641e+04 +/- 7.34291539e+04
+RMSE    : 9.04800051e+04 +/- 1.48636791e+05
+Rel. L2 : 6.81669039e-01 +/- 2.53936624e-01
+R2      : 4.57479201e-01 +/- 3.99024544e-01
+
+Timing
+======
+Total evaluation time : 14.8337 s
+Time per sample       : 0.185421 s
